@@ -1,41 +1,50 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Calcula tu presupuesto de seguro de auto, hogar, salud y más. Te ayudamos a encontrar la mejor opción.">
-  <meta name="keywords" content="seguros, presupuesto seguro, seguro coche, seguro hogar, seguro salud, seguro decesos, seguro comunidad, seguro responsabilidad civil">
-  <meta name="author" content="seguropresupuesto.es">
-  <title>Presupuesto Seguro Online</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>seguropresupuesto.es - Presupuestos de Seguros</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .navbar { background-color: #d50000; }
+    .navbar a, .navbar-brand { color: white !important; }
+    footer { background-color: #f1f1f1; padding: 20px; text-align: center; margin-top: 40px; }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Calcula tu Presupuesto de Seguro</h1>
-    <p>Encuentra el seguro que necesitas: Auto, Hogar, Salud, Decesos, y más.</p>
-  </header>
-  <main>
-    <section>
-      <h2>Solicita tu presupuesto</h2>
-      <form>
-        <label>Nombre:<input type="text" name="nombre" required></label><br>
-        <label>Email:<input type="email" name="email" required></label><br>
-        <label>Tipo de seguro:
-          <select name="seguro">
-            <option>Auto</option>
-            <option>Hogar</option>
-            <option>Salud</option>
-            <option>Decesos</option>
-            <option>Responsabilidad Civil</option>
-            <option>Comunidad</option>
-          </select>
-        </label><br>
-        <button type="submit">Solicitar presupuesto</button>
-      </form>
-    </section>
-  </main>
-  <footer>
-    &copy; 2025 seguropresupuesto.es | Todos los derechos reservados
-  </footer>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">seguropresupuesto.es</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="seguros.html">Seguros</a></li>
+        <li class="nav-item"><a class="nav-link" href="presupuesto.html">Presupuesto</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <h1>Bienvenido a seguropresupuesto.es</h1>
+  <p>Solicita tu presupuesto gratuito para seguros de auto, hogar, salud, decesos y más.</p>
+  <a href="presupuesto.html" class="btn btn-danger">Solicitar Presupuesto</a>
+</div>
+
+<footer>
+  <p>&copy; 2025 seguropresupuesto.es | <a href="legal.html">Aviso legal</a></p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Google Translate -->
+<div id="google_translate_element" style="position: fixed; bottom: 10px; right: 10px;"></div>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'es'}, 'google_translate_element');
+  }
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
